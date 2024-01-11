@@ -1,0 +1,8 @@
+default log
+	[timestamp] [level] [message]
+
+request log
+	[timestamp] [level] [method] [url] [response-time(ms)]
+
+response log
+	[timestamp] [level] [method] [url] [response-time(ms)]
